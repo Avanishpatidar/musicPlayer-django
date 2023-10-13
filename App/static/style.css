@@ -228,31 +228,31 @@
     }
 
 
+    /* lyrics section */
 
-
-    .right-section {
-        float: right; /* Float the right-section to the right */
-        width: 69%; /* Set the width of the right-section (adjust as needed) */
-        height: 90%;
-        padding: 20px; /* Add padding for spacing */
-        box-sizing: border-box; /* Include padding and border in the element's total width and height */
-        background: transparent linear-gradient(to bottom,rgba(4, 3, 3, 0.9) 50%,rgb(0, 0, 0) 70%) repeat scroll 0 0;
-        margin-top: 2%;
-        margin-right:0.6% ;
-        box-shadow: 1px 10px 20px 5px #222;;
+   .right-section {
+    float: right; /* Float the right-section to the right */
+    width: 69%; /* Set the width of the right-section (adjust as needed) */
+    height: 90%;
+    padding: 20px; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    background: transparent linear-gradient(to bottom,rgba(4, 3, 3, 0.9) 50%,rgb(0, 0, 0) 70%) repeat scroll 0 0;
+    margin-top: 2%;
+    margin-right:0.6% ;
+    box-shadow: 1px 10px 20px 5px #222;;
     }
-    
+
     .lyrics-container {
-        padding: 20px; /* Add padding for lyrics container */
+    padding: 20px; /* Add padding for lyrics container */
     }
-    
+
     .lyrics {
-        font-family: Arial, sans-serif; /* Specify the desired font family */
-        color: #ffffff; /* Set the text color */
-        line-height: 1.6; /* Set the line height for better readability */
+    font-size: 600%;
+    font-family: "Sofia", sans-serif; /* Specify the desired font family */
+    color: #88ff00; /* Set the text color */
+    line-height: 1.6; /* Set the line height for better readability */
     }
-    
+
     #song-lyrics {
-        margin: 0; /* Remove default margin for the lyrics paragraph */
+    margin: 0px; /* Remove default margin for the lyrics paragraph */
     }
-    
